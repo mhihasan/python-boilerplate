@@ -1,0 +1,11 @@
+# linting
+flake8
+
+# formatting
+black
+
+# type checking
+mypy
+
+# run hooks before commit
+pre-commit

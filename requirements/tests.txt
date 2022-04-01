@@ -1,0 +1,9 @@
+pytest-asyncio
+pytest-cov
+pytest-env
+
+# requesting test server
+httpx
+
+# for mocking aiohttp
+aioresponses

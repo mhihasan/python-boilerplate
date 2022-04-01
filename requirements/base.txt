@@ -1,0 +1,8 @@
+# api
+fastapi==0.75.0
+uvicorn==0.16.0
+
+# http request
+aiohttp==3.8.1
+
+python-dotenv==0.20.0
