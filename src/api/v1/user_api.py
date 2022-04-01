@@ -8,4 +8,4 @@ router = APIRouter()
 
 @router.get("/users/", response_model=list[user_schema.User])
 async def get_users(page: int = 1, limit: int = 5):
-    return await user_service.fetch_users(page, limit)
+    return await user_service.get_users(page, limit)

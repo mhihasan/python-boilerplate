@@ -25,7 +25,7 @@ This project uses `asynchronous programming` with the help of following technolo
 ### Running development server
 
 ```bash
-make run_dev
+make run_server
 ```
 
 ### Running tests

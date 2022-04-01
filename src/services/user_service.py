@@ -5,9 +5,9 @@ from src.schemas import user_schema
 from src.utils import http
 
 
-async def fetch_users(page: int = 1, limit: int = 5) -> list[user_schema.User]:
+async def get_users(page: int = 1, limit: int = 5) -> list[user_schema.User]:
     async with aiohttp.ClientSession() as session:
-        users = await http.fetch(
+        users = await http.get(
             session, settings.REMOTE_USERS_API, params={"_page": page, "_limit": limit}
         )
 
